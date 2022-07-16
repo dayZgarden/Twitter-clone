@@ -7,6 +7,7 @@ import Widgets from '../components/Widgets'
 import { fetchTweets } from '../utils/fetchTweets'
 import { Tweet } from '../typings'
 import { Toaster } from 'react-hot-toast'
+import '../public/favicon.ico'
 
 interface Props {
   tweets: Tweet[]
